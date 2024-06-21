@@ -17,7 +17,7 @@ const FavoriteEpisodes = () => {
               <p><strong>Show:</strong> {episode.showTitle}</p>
               <p><strong>Season:</strong> {episode.seasonTitle}</p>
               <audio controls>
-                <source src="https://example.com/placeholder-audio.mp3" type="audio/mpeg" />
+                <source src={episode.title} type="audio/mpeg" />
                 Your browser does not support the audio element.
               </audio>
             </div>
