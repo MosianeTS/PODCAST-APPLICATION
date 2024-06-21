@@ -22,5 +22,14 @@
     
   }
 
+  .navbar-right .nav-link {
+    font-weight: bold;
+    font-size: 2.5rem;    
+    color: #fff3b0;    
+    background-color: #335c68;
+    text-decoration: none;
+    
+  }
+
   /* https://coolors.co/palettes/popular/podcast */
   

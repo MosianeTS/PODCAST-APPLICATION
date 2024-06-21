@@ -1,5 +1,5 @@
+import React from "react";
 import { Link } from "react-router-dom";
-
 import "./Navbar.css";
 
 export default function Navbar() {
@@ -10,6 +10,12 @@ export default function Navbar() {
           FuturePod
         </Link>
       </div>
+      <div className="navbar-right">
+        <Link to="/favorites" className="nav-link">
+          Favorites
+        </Link>
+      </div>
     </nav>
   );
 }
+
