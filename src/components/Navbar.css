@@ -1,0 +1,26 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;        
+    background-color: #335c67;
+    color: #fff3b0; 
+    border-radius: 10px;    
+    padding: 1rem 2rem;  
+    z-index: 1000;  
+    position: sticky;
+    top: 0;
+    height: 12vh;
+    
+  }
+  
+  .navbar-left .logo {
+    font-weight: bold;
+    font-size: 4rem;    
+    color: #fff3b0;    
+    background-color: #335c67;
+    text-decoration: none;
+    
+  }
+
+  /* https://coolors.co/palettes/popular/podcast */
+  

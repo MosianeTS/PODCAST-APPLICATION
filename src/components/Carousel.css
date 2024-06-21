@@ -1,0 +1,24 @@
+.custom-carousel {
+    width: 100%; 
+    max-width: 800px; 
+    margin: 0 auto; 
+    margin-top: 50px;   
+    
+}
+
+.custom-carousel .carousel .slide img {
+    height: 550px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .custom-carousel .carousel .slide img:hover {
+    transform: scale(1.12);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+
+
+
