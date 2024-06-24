@@ -9,9 +9,9 @@ FuturePod is a podcast application where users can listen to and enjoy the lates
 ## Data
 Data consists of three basic semantic units
 
-SHOW: A specific podcast that contains a single or several SEASON
-SEASON: A collection of EPISODE released across a specific timespan
-EPISODE: Corresponds to a specific MP3 file that user can listen
+- SHOW: A specific podcast that contains a single or several SEASON
+- SEASON: A collection of EPISODE released across a specific timespan
+- EPISODE: Corresponds to a specific MP3 file that user can listen
 
 ## Features
 Show Preview
@@ -24,9 +24,8 @@ Favorites
 - Add shows to a favorites page for easy access.
 
 ## Tech Stack
-- HTML5
 - CSS3
-- JavaScript
+- Vite
 - React
 
 ## Contact
